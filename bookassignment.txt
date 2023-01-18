@@ -1,0 +1,78 @@
+Working with Postgres. Create a book stock management page.
+
+Create various APIs which can do certain tasks:
+
+1. List of all book
+
+2. Details of individual book
+
+3. Add a new book
+
+4. Update the new book
+
+5. Delete the new book
+
+6. Search the book by name of the Author
+
+7. Search book by name of the book name
+
+
+
+Sample JSON Data expected:
+
+{
+
+   "id": 1,
+
+   "bookName": "Harry Potter",
+
+   "bookAuthor": "JK Rowling",
+
+   "bookQuantity: 4,
+
+   "created_at":"2023-01-09T02:30:20.065Z",
+
+   "updated_at":"2023-01-09T02:39:34.687Z"
+   
+   
+   Along with above sequence ,
+   Installing three gems
+  gem "bcrypt", "~> 3.1.7"
+  gem "rack-cors"
+  gem "clearance", "~> 2.6.1"
+ To check Authenticated password and To connect with UI(react) added the following gem files in gemfile. Then in command prompt bundle install 
+ 
+  Create a table users  in bookstock database 
+Added 3 users only 
+
+
+
+
+}
+
+Book.create(
+   bookName: "The Diary of Anne Frank",
+   bookAuthor: "Anne Frank",
+   bookQuantity: 12,
+)
+Book.create(
+   bookName: "A Passage to India",
+   bookAuthor: "E.M. Foster",
+   bookQuantity: 10,
+    )
+
+Book.create(
+   bookName: "A Better India: A Better World",
+   bookAuthor: "Narayana Murthy",
+   bookQuantity: 15,
+    )
+Book.create
+
+Finally, create documentation for all the APIs.
+
+
+
+Instructions: 
+
+All the coding files need to be pushed on github and they should be validated before uploading the link that the project is running on the github. If the project throws an error then it will not be considered a submission. No other file apart from the github link will be accepted for assignment submission.
+No extension on the Assignments will be there, all late submissions will only be corrected at a 75% baseline score.
