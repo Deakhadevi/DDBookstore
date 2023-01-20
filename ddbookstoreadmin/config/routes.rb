@@ -3,9 +3,9 @@ Rails.application.routes.draw do
 
   # Defines the root path route ("/")
   # root "articles#index"
-  #root "application#index"
-  root :to => redirect('/bookstock')
-  #resources :bookstock
+   root "application#index"
+ # root :to => redirect('/bookstock')
+  resources :bookstock
   resources :user
   resources :login
   resources :logout
